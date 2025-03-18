@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ---------------------------------- */
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+/* ---------------------------------- */
+
+.pageHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid black;
+}
+
+.pageHead img{
+    margin-top: 0.2vh;
+    width: 11vw;
+    height: 4vh;
+}
+
+/* ---------------------------------- */
+
+.tableContainer{
+    display: flex;
+    float: left;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.tableContainer div{
+    width: 49vw;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+h1{
+    margin: 0;
+    padding: 1vh;
+    font-size: 1.8vw;
+}
+
+.tableHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 1.2vw;
+    margin: 1.7vh 0;
+}
+
+input{
+    width: 15vw;
+    height: 2.2vh;
+    font-family: Verdana, sans-serif;
+    font-size: 1.4vh;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#tableBodyCont{
+    overflow: scroll;
+    height: 84vh;
+}
+
+/* ---------------------------------- */
+
+table, td, th{
+    font-size: 0.8vw;
+    border: 0.5px solid black;
+}
+
+/* ---------------------------------- */
+
+thead{
+    top: 0;
+    position: sticky;
+    z-index: 9;
+    background-color: rgba(209, 216, 224,1.0);
+}
+
+/* ---------------------------------- */
+
+th {
+    width: 12vw;
+}
+
+th:first-child{
+    width: 2vw;
+    height: 3.5vh;
+}
+
+/*  Doc Type  */
+#docTable th:nth-child(2){
+    width: 5em;
+}
+
+/*  Doc Name  */
+#docTable th:nth-child(3){
+    width: 18.5vw;
+}
+
+
+/*  PT Name */
+#ptTable th:nth-child(2){
+    width: 14vw;
+}
+
+/*  Entity  */
+#ptTable th:nth-child(5){
+    width: 8.5vw;
+}
+
+/* ---------------------------------- */
+
+/*  Data Cells */
+
+td{ 
+    height: 2.7vh !important;
+    font-weight: 450;
+    text-align: center;
+}
+
+/*  Doc Name  */
+#docTable td:nth-child(3){
+    text-align: left;
+    padding-left: 0.3vw;
+}
+
+/*  PT Name  */
+#ptTable td:nth-child(2){
+    text-align: left;
+    padding-left: 0.3vw;
+}
+
+/* ---------------------------------- */
+
+
+
+
+
+
+/* ---------------------------------- */
+
+
+
+/*  Index Number  */
+
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: rgb(206, 22, 22);
+    font-weight: 700;
+    transition: all 100ms;
+}
+
+footer{
+    justify-content: center;
+    text-align: center;
+}
+
+h6{
+    margin: 0;
+}

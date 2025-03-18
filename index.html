@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Source Files/style.css">
+    <title>BSI DocInfo</title>
+</head>
+<body>
+
+    <div class="pageHead">
+        <h1>BSI DOCINFO</h1>
+        <img src="./Images/Exp-Logo.png" alt="STELLANTIS" draggable="false">
+    </div>
+    
+    <div class="tableContainer">
+
+        <div class="ptRefTable">
+            
+            <div class="tableHead">
+                <h3>TESTPLANS</h3>
+                <input type="text" id="ptRefFilter" placeholder="Search Here!">
+            </div>
+
+            <div id="tableBodyCont">
+                <table id="ptTable">
+                    <thead>
+                        <th>N°</th>
+                        <th>FUNCTION NAME</th>
+                        <th>TESTPLAN REF.</th>
+                        <th>QIA REF.</th>
+                        <th>RES. ENTITY</th>
+                    </thead>
+    
+                    <tbody id="ptTabBody"></tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <div class="gbDocTable">
+            
+            <div class="tableHead">
+                <h3>DOCUMENTS</h3>
+                <input type="text" id="docRefFilter" placeholder="Search Here!">
+            </div>
+
+            <div id="tableBodyCont">
+                <table id="docTable">
+                    <thead>
+                        <th>N°</th>
+                        <th>TYPE</th>
+                        <th>DOCUMENT NAME</th>
+                        <th>DOCUMENT REFERENCE</th>
+                        <th>QIA REFERENCE</th>
+                    </thead>
+    
+                    <tbody id="gbDocTabBody"></tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="addItem">
+        
+    </div>
+
+    <footer>
+        <hr>    
+        <h6> &copy;2024 Suraj Mane | All Rights Reserved</h6>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./Source Files/script.js"></script>
+
+</body>
+</html>
