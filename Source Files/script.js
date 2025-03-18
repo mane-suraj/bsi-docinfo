@@ -181,7 +181,7 @@ const docRefData = [
     {docType: "TL", docRef : "",               qiaRef : "01642_20_01301", docName: "QIA Bench"},
     {docType: "CKL", docRef : "01642_21_00222", qiaRef : "", docName: "DC Review Checkliat"},
     {docType: "TL", docRef : "01642_24_00721", qiaRef : "", docName: "HIK PT Compiler"},
-    {docType: "TL", docRef : "01642_24_00588", qiaRef : "", docName: "Param Compiler"},
+    {docType: "TL", docRef : "01642_24_00588", qiaRef : "", docName: "Param Compiler"}
 
 ];
 
