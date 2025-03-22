@@ -118,7 +118,7 @@ th:first-child{
 
 /*  Doc Name  */
 #docTable th:nth-child(3){
-    width: 18.5vw;
+    width: 22.5vw;
 }
 
 #docTable th:nth-child(4){
