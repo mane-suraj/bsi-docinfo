@@ -118,15 +118,7 @@ th:first-child{
 
 /*  Doc Name  */
 #docTable th:nth-child(3){
-    width: 22.5vw;
-}
-
-#docTable th:nth-child(4){
-    width: 10vw;
-}
-
-#docTable th:nth-child(5){
-    width: 10vw;
+    width: 20vw;
 }
 
 /*  PT Name */
