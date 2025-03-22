@@ -204,7 +204,7 @@ const docRefData = [
     {docType: "SSD", docRef : "01843_20_00500", qiaRef : "01843_20_00502", docName: "HMIF DISPLAY_MANAGEMENT_HMI (DIMA_HMI)"},
     {docType: "SSD", docRef : "02017_19_02192", qiaRef : "02017_19_02221", docName: "HMIF MAINTENANCE_RECORDING_HMI (MREC_HMI)"},
     {docType: "SSD", docRef : "02017_19_02213", qiaRef : "02017_19_02215", docName: "HMIF OFF_BOARD_CONNECTIVITY_HMI (OFBC_HMI)"},
-    {docType: "SSD", docRef : "02014_19_00590", qiaRef : "00998_17_04026", docName: "GEN1_RSP_CVMM_CONTROL_VHL_MISSION_MODES"},
+    {docType: "SSD", docRef : "02014_19_00590", qiaRef : "00998_17_04026", docName: "SSFD_GEN1_RSP_CVMM_CONTROL_VHL_MISSION_MODES"},
     {docType: "QIA", docRef : "", qiaRef : "01407_20_03654", docName: "QIA SSD CABIN THERMAL"},
     {docType: "SUVI", docRef : "01272_20_02108", qiaRef : "", docName: "HED SUIVI"},
     {docType: "SUVI", docRef : "01642_22_00433", qiaRef : "", docName: "SCHA SUIVI"},
