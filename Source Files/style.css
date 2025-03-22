@@ -144,7 +144,7 @@ td{
 /*  Doc Name  */
 #docTable td:nth-child(3){
     text-align: left;
-    padding-left: 0.3vw;
+    padding: 0 0.3vw;
 }
 
 /*  PT Name  */
