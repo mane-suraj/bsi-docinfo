@@ -155,7 +155,7 @@ refData.forEach((item, index) =>{
 
 const docRefData = [
     {docType: "GBL", docRef : "00949_11_00178", qiaRef : "01642_23_00140", docName: "PARAM GLOBAL"},
-    {docType: "GBL", docRef : "02016_11_06093", qiaRef : "", docName: "DCI GLOBAL"},
+    {docType: "GBL", docRef : "02016_11_06093", qiaRef : "02016_16_04175", docName: "DCI GLOBAL"},
     {docType: "GBL", docRef : "00952_10_05276", qiaRef : "00952_09_01398", docName: "SOUS FICHE TESTPLAN (SSF)"},
     {docType: "GBL", docRef : "02016_11_04964", qiaRef : "01272_23_00190", docName: "EC REFERENTIEL"},
     {docType: "GBL", docRef : "AEEV_PROJ08_0046", qiaRef : "", docName: "STG CALIBRATION"},
@@ -169,7 +169,7 @@ const docRefData = [
     {docType: "GBL", docRef : "01642_23_01424", qiaRef : "", docName: "BSI DELIVERY MAIL TEMPLATES"},
     {docType: "INT", docRef : "01272_19_02283", qiaRef : "", docName: "ANALYSE DE ENTRANT"},
     {docType: "UG", docRef : "00949_17_03714", qiaRef : "", docName: "FUNCTION DESCRIPTION DOCS"},
-    {docType: "UG", docRef : "01642_20_01130", qiaRef : "01642_22_00831", docName: "AUTOMATION GUIDELINE"},
+    {docType: "UG", docRef : "01642_20_01130", qiaRef : "01642_22_00831", docName: "AUTOMATION GUIDELINE (QIA - RETEX)"},
     {docType: "UG", docRef : "01272_24_00105", qiaRef : "", docName: "SOUND GUIDE"},
     {docType: "UG", docRef : "01272_21_01458", qiaRef : "", docName: "TEMPO/TMIN/TMAX GUIDE"},
     {docType: "UG", docRef : "01272_22_00098", qiaRef : "", docName: "EC FORMATION/USABILTY GUIDE"},
@@ -188,6 +188,7 @@ const docRefData = [
     {docType: "TL", docRef : "01642_24_00588", qiaRef : "", docName: "PARAM COMPILER"},
     {docType: "TL", docRef : "", qiaRef : "01642_20_01301", docName: "QIA BENCH"},
     {docType: "PRC", docRef : "01642_22_01201", qiaRef : "", docName: "AUTO GLOBAL PROCESS"},
+    {docType: "QIA", docRef : "", qiaRef : "01407_20_03654", docName: "QIA SSD CABIN THERMAL"},
     {docType: "SUVI", docRef : "01272_20_02108", qiaRef : "", docName: "HED SUIVI"},
     {docType: "SUVI", docRef : "01642_22_00433", qiaRef : "", docName: "SCHA SUIVI"},
     {docType: "GBL", docRef : "01272_20_02392", qiaRef : "", docName: "WKPI"}
