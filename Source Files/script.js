@@ -232,10 +232,6 @@ docRefData.forEach((item, index) =>{
     <td><a href="http://docinfogroupe.inetpsa.com/ead/doc/ref.${item.docRef}/v.vc/fiche">${item.docRef}</a></td>
     <td><a href="http://docinfogroupe.inetpsa.com/ead/doc/ref.${item.qiaRef}/v.vc/fiche">${item.qiaRef}</a></td>
     `;
-
-    if(item.docType === "SSD"){
-        $(row).css("fontSize", "0.6vw");
-
     tabBody2.append(row);
 
     });
