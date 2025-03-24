@@ -75,8 +75,9 @@ input{
 }
 
 table{
-    border: 1px solid black;
-    border-collapse: collapse;
+    border-left: 0.5px solid black;
+    border-collapse: separate;
+    border-spacing: 0;
 }
 
 #tableBodyCont{
@@ -86,25 +87,19 @@ table{
 
 /* ---------------------------------- */
 
-table, td, th{
-    font-size: 0.8vw;
-    border: 0.5px solid black;
-}
-
-/* ---------------------------------- */
-
-thead{
+#tableBodyCont thead th{
     top: 0;
+    z-index: 1;
+    width: 12vw;
     position: sticky;
-    z-index: 9;
+    font-size: 0.8vw;
+    border-bottom: 1px solid black;
+    border-top: 0.5px solid black;
+    border-right: 0.5px solid black;
     background-color: rgba(209, 216, 224,1.0);
 }
 
 /* ---------------------------------- */
-
-th {
-    width: 12vw;
-}
 
 th:first-child{
     width: 2vw;
@@ -136,9 +131,12 @@ th:first-child{
 /*  Data Cells */
 
 td{ 
+    font-size: 0.7vw;
     height: 2.7vh !important;
     font-weight: 450;
     text-align: center;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.7);
 }
 
 /*  Doc Name  */
@@ -152,20 +150,6 @@ td{
     text-align: left;
     padding-left: 0.3vw;
 }
-
-/* ---------------------------------- */
-
-
-
-
-
-
-/* ---------------------------------- */
-
-
-
-/*  Index Number  */
-
 
 a{
     text-decoration: none;
