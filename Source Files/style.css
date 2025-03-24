@@ -127,11 +127,17 @@ th:first-child{
 }
 
 /* ---------------------------------- */
+tr{
+    font-size: 0.7vw;
+}
+
+.ExtraStyling td:nth-child(3) {
+    font-size: 0.6vw !important;
+}
 
 /*  Data Cells */
 
-td{ 
-    font-size: 0.7vw;
+td{
     height: 2.7vh !important;
     font-weight: 450;
     text-align: center;
