@@ -178,6 +178,8 @@ a:hover{
 footer{
     justify-content: center;
     text-align: center;
+    font-size: 0.7vw;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 h6{
