@@ -233,7 +233,8 @@ docRefData.forEach((item, index) =>{
     <td><a href="http://docinfogroupe.inetpsa.com/ead/doc/ref.${item.qiaRef}/v.vc/fiche">${item.qiaRef}</a></td>
     `;
 
-    row.style.fontSize = 2vw ? docType == "SSD";
+    if(item.docType === "SSD"){
+        $(row).css("fontSize", "0.6vw");
 
     tabBody2.append(row);
 
