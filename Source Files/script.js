@@ -160,6 +160,7 @@ const docRefData = [
     {docType: "GBL", docRef : "02016_11_04964", qiaRef : "01272_23_00190", docName: "EC REFERENTIEL"},
     {docType: "GBL", docRef : "AEEV_PROJ08_0046", qiaRef : "", docName: "STG CALIBRATION"},
     {docType: "GBL", docRef : "01255_08_00390", qiaRef : "01255_10_01507", docName: "SI ALERT"},
+    {docType: "GBL", docRef : "", qiaRef : "01642_23_01724", docName: "QIA SILHOUETTE"},
     {docType: "GBL", docRef : "00952_09_03212", qiaRef : "", docName: "FLUX MESSAGERIE"},
     {docType: "GBL", docRef : "00949_16_01952", qiaRef : "00949_16_03918", docName: "SYNTHESE ARCHI"},
     {docType: "GBL", docRef : "00952_09_05196", qiaRef : "01272_23_00190", docName: "CONFIG THEMATIQUES"},
