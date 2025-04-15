@@ -189,7 +189,7 @@ const docRefData = [
     {docType: "TL", docRef : "01642_24_00588", qiaRef : "", docName: "PARAM COMPILER"},
     {docType: "TL", docRef : "", qiaRef : "01642_20_01301", docName: "QIA BENCH"},
     {docType: "PRC", docRef : "01642_22_01201", qiaRef : "", docName: "AUTO GLOBAL PROCESS"},
-    {docType: "SSD", docRef : "01552_09_00363", qiaRef : "02014_19_00579", docName: "CDC BatMgtExt"},
+    {docType: "SSD", docRef : "01552_09_00363", qiaRef : "01552_18_05883", docName: "CDC BatMgtExt"},
     {docType: "SSD", docRef : "02017_19_02196", qiaRef : "02017_19_02218", docName: "HMIF LONGITUDINAL_MOBILITY_MOBY_HMI (MOBY_HMI)"},
     {docType: "SSD", docRef : "02017_19_02184", qiaRef : "02017_19_02228", docName: "HMIF ACTIVE_SAFETY_DANGER_ALERT_HMI (ASDA_HMI)"},
     {docType: "SSD", docRef : "02017_19_02189", qiaRef : "02017_19_02224", docName: "HMIF COCKPIT_HANDLING_HMI (COHG_HMI)"},
