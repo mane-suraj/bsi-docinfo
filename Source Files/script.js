@@ -184,7 +184,7 @@ const docRefData = [
     {docType: "CKL", docRef : "01642_22_00865", qiaRef : "", docName: "AUTO_VALIDATION REVIEW CHECKLIST"},
     {docType: "CKL", docRef : "01642_22_01347", qiaRef : "", docName: "MANUAL PC REVIEW CHECKLIST"},
     {docType: "CKL", docRef : "01642_21_00222", qiaRef : "", docName: "DC REVIEW CHECKLIST"},
-    {docType: "TL", docRef : "01272_18_00034", qiaRef : "01272_18_01027", docName: "VSVB MACRO"},
+    {docType: "TL", docRef : "01272_18_01027", qiaRef : "01642_25_00106", docName: "VSVB MACRO"},
     {docType: "TL", docRef : "01642_24_00721", qiaRef : "", docName: "HIK PT COMPILER"},
     {docType: "TL", docRef : "01642_24_00588", qiaRef : "", docName: "PARAM COMPILER"},
     {docType: "TL", docRef : "", qiaRef : "01642_20_01301", docName: "QIA BENCH"},
@@ -216,6 +216,7 @@ const docRefData = [
     {docType: "SSFD", docRef : "02014_19_00792", qiaRef : "02014_19_00794", docName: "GENx_RSP_AUE_ALERT_UNALLOWED_EVENTS"},
     {docType: "SSFD", docRef : "00998_17_02659", qiaRef : "02014_19_00896", docName: "GENx_RSP_MDL_MANAGE_DEFECT_LOG"},
     {docType: "SSFD", docRef : "02014_19_00535", qiaRef : "02014_19_00579", docName: "GENx_RSP_MERP_MANAGE_ELECTRIC_RELOAD_PHASE"},
+    {docType: "SSFD", docRef : "00998_18_03392", qiaRef : "02014_19_00814", docName: "GENx_RSP_MERP_MANAGE_ELECTRIC_RELOAD_PHASE"},
     {docType: "SUVI", docRef : "01272_20_02108", qiaRef : "", docName: "HED SUIVI"},
     {docType: "SUVI", docRef : "01642_22_00433", qiaRef : "", docName: "SCHA SUIVI"},
     {docType: "GBL", docRef : "01272_20_02392", qiaRef : "", docName: "WKPI"}
@@ -282,3 +283,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
