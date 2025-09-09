@@ -213,10 +213,10 @@ const docRefData = [
     {docType: "SSFD", docRef : "02014_21_00779", qiaRef : "02014_22_00006", docName: "GEN1_AER_ARBITRATE_ENERGETIC_REQUESTS"},
     {docType: "SSFD", docRef : "02014_19_00780", qiaRef : "02014_19_00782", docName: "GEN1_RSP_DVS_DETERMINATE_VEHICLE_STATE"},
     {docType: "SSFD", docRef : "00998_18_03912", qiaRef : "02014_20_00378", docName: "GEN1_RSP_LIA_LOCATE_IDENTIFY_AUTHENTICATE_THE_USER"},
+    {docType: "SSFD", docRef : "00998_18_03392", qiaRef : "02014_19_00814", docName: "GEN1_RSP_SSR_SECURE_THE_STARTING_REQUESTS"},
     {docType: "SSFD", docRef : "02014_19_00792", qiaRef : "02014_19_00794", docName: "GENx_RSP_AUE_ALERT_UNALLOWED_EVENTS"},
     {docType: "SSFD", docRef : "00998_17_02659", qiaRef : "02014_19_00896", docName: "GENx_RSP_MDL_MANAGE_DEFECT_LOG"},
     {docType: "SSFD", docRef : "02014_19_00535", qiaRef : "02014_19_00579", docName: "GENx_RSP_MERP_MANAGE_ELECTRIC_RELOAD_PHASE"},
-    {docType: "SSFD", docRef : "00998_18_03392", qiaRef : "02014_19_00814", docName: "GENx_RSP_MERP_MANAGE_ELECTRIC_RELOAD_PHASE"},
     {docType: "SUVI", docRef : "01272_20_02108", qiaRef : "", docName: "HED SUIVI"},
     {docType: "SUVI", docRef : "01642_22_00433", qiaRef : "", docName: "SCHA SUIVI"},
     {docType: "GBL", docRef : "01272_20_02392", qiaRef : "", docName: "WKPI"}
@@ -283,4 +283,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
 
